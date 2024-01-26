@@ -3,5 +3,5 @@
 @section('title', 'Home')
 
 @section('content')
-    <h2>Ini adalah halaman home</h2>
+    <h2>ini adalah halaman kategori</h2>
 @endsection
