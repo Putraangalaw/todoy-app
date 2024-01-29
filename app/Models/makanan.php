@@ -13,6 +13,8 @@ class Makanan extends Model
 
     protected $primaryKey = 'kode_makanan';
 
+    protected $keyType = 'string';
+    
     protected $fillable = [
         'kode_makanan',
         'nama',

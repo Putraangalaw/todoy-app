@@ -3,15 +3,17 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Support\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 
-class Makanan extends Model
+class kategori extends Model
 {
     use HasFactory;
 
     protected $table = 'kategoris';
 
     protected $primaryKey = 'kode_kategori';
+
+    protected $keyType = 'string';
 
     protected $fillable = [
         'kode_kategori',

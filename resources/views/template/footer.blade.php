@@ -1,2 +1,17 @@
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-muted">c
+<div class="container">
+    <div class="row">
+        <div class="col-12"></div>
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2021 Company, Inc</p>
+          </footer>
+        </div>
+    </div>
+</div>
+
