@@ -31,3 +31,8 @@ Route::get('/kategori/{id}/edit', [KategoriController::class, 'edit']);
 Route::get('/kategori/{id}/delete', [KategoriController::class, 'delete']);
 Route::post('/kategori/save', [KategoriController::class, 'save']);
 
+Route::get('/menu', [MenuController::class, 'index']);
+Route::get('/menu/add', [MenuController::class, 'add']);
+Route::get('/menu/{id}/edit', [MenuController::class, 'edit']);
+Route::get('/menu/{id}/delete', [MenuController::class, 'delete']);
+Route::post('/menu/save', [MenuController::class, 'save']);
